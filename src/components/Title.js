@@ -8,7 +8,7 @@ class Title extends React.Component {
         return (
             <div>
                 <h1>To Do</h1>
-                <h2>Things To Do: {this.props.data.length}</h2>
+                <h2>Things To Do: {this.props.tasksNumber}</h2>
             </div>
         );
     }
